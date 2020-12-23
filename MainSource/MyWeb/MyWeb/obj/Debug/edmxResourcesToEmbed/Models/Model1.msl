@@ -1,0 +1,2369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="thuctapk39Entities">
+    <FunctionImportMapping FunctionImportName="AccountConfigList" FunctionName="Model.Store.AccountConfigList" />
+    <FunctionImportMapping FunctionImportName="Add_User" FunctionName="Model.Store.Add_User" />
+    <FunctionImportMapping FunctionImportName="AnimalSearch" FunctionName="Model.Store.AnimalSearch" />
+    <FunctionImportMapping FunctionImportName="Branch_Search" FunctionName="Model.Store.Branch_Search" />
+    <FunctionImportMapping FunctionImportName="CheckDuplicate" FunctionName="Model.Store.CheckDuplicate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.CheckDuplicate_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Class_Search" FunctionName="Model.Store.Class_Search" />
+    <FunctionImportMapping FunctionImportName="ClassGetListTeacherAvaiable" FunctionName="Model.Store.ClassGetListTeacherAvaiable" />
+    <FunctionImportMapping FunctionImportName="ClassGetListTeacherAvaiable2" FunctionName="Model.Store.ClassGetListTeacherAvaiable2" />
+    <FunctionImportMapping FunctionImportName="ClassSearchStudentOfClass" FunctionName="Model.Store.ClassSearchStudentOfClass" />
+    <FunctionImportMapping FunctionImportName="ClassSearchTeacherAvailable" FunctionName="Model.Store.ClassSearchTeacherAvailable" />
+    <FunctionImportMapping FunctionImportName="ClassSearchTeacherOfClass" FunctionName="Model.Store.ClassSearchTeacherOfClass" />
+    <FunctionImportMapping FunctionImportName="ContactList" FunctionName="Model.Store.ContactList" />
+    <FunctionImportMapping FunctionImportName="ContactList2" FunctionName="Model.Store.ContactList2" />
+    <FunctionImportMapping FunctionImportName="ContactList3" FunctionName="Model.Store.ContactList3" />
+    <FunctionImportMapping FunctionImportName="ContactPickerList" FunctionName="Model.Store.ContactPickerList" />
+    <FunctionImportMapping FunctionImportName="ContactSourceList" FunctionName="Model.Store.ContactSourceList" />
+    <FunctionImportMapping FunctionImportName="CourseCategoryList" FunctionName="Model.Store.CourseCategoryList" />
+    <FunctionImportMapping FunctionImportName="CourseList" FunctionName="Model.Store.CourseList" />
+    <FunctionImportMapping FunctionImportName="Customer_Search" FunctionName="Model.Store.Customer_Search" />
+    <FunctionImportMapping FunctionImportName="DashboardContactSource" FunctionName="Model.Store.DashboardContactSource">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.DashboardContactSource_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DashboardContactSource2" FunctionName="Model.Store.DashboardContactSource2" />
+    <FunctionImportMapping FunctionImportName="DashboardContactStatus" FunctionName="Model.Store.DashboardContactStatus">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.DashboardContactStatus_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DashboardContactStatus2" FunctionName="Model.Store.DashboardContactStatus2" />
+    <FunctionImportMapping FunctionImportName="DashboardRevenueByDay" FunctionName="Model.Store.DashboardRevenueByDay">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.DashboardRevenueByDay_Result">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TotalPay" ColumnName="TotalPay" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DashboardRevenueOfBranchByDay" FunctionName="Model.Store.DashboardRevenueOfBranchByDay" />
+    <FunctionImportMapping FunctionImportName="DashboardTotalInfo" FunctionName="Model.Store.DashboardTotalInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.DashboardTotalInfo_Result">
+          <ScalarProperty Name="TotalContact" ColumnName="TotalContact" />
+          <ScalarProperty Name="TotalNewStudent" ColumnName="TotalNewStudent" />
+          <ScalarProperty Name="TotalStudent" ColumnName="TotalStudent" />
+          <ScalarProperty Name="TotalClass" ColumnName="TotalClass" />
+          <ScalarProperty Name="TotalFee" ColumnName="TotalFee" />
+          <ScalarProperty Name="ToTalReturnStudent" ColumnName="ToTalReturnStudent" />
+          <ScalarProperty Name="TotalTeacher" ColumnName="TotalTeacher" />
+          <ScalarProperty Name="TotalExpireTeacher" ColumnName="TotalExpireTeacher" />
+          <ScalarProperty Name="TotalNextClass" ColumnName="TotalNextClass" />
+          <ScalarProperty Name="TotalFinishClass" ColumnName="TotalFinishClass" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DashboardTotalInfo2" FunctionName="Model.Store.DashboardTotalInfo2" />
+    <FunctionImportMapping FunctionImportName="ELSync" FunctionName="Model.Store.ELSync" />
+    <FunctionImportMapping FunctionImportName="ExecContact" FunctionName="Model.Store.ExecContact" />
+    <FunctionImportMapping FunctionImportName="FBGetLastestComment" FunctionName="Model.Store.FBGetLastestComment">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.FBGetLastestComment_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FBName" ColumnName="FBName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="IsReply" ColumnName="IsReply" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="UserLike" ColumnName="UserLike" />
+          <ScalarProperty Name="IsIngore" ColumnName="IsIngore" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserLink" ColumnName="UserLink" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+          <ScalarProperty Name="ChildOf" ColumnName="ChildOf" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="TypeOf" ColumnName="TypeOf" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="UrlWeb" ColumnName="UrlWeb" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="ChildText" ColumnName="ChildText" />
+          <ScalarProperty Name="ContactIDs" ColumnName="ContactIDs" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+          <ScalarProperty Name="PreviewUrl" ColumnName="PreviewUrl" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ScopedThreadKey" ColumnName="ScopedThreadKey" />
+          <ScalarProperty Name="ShareUrl" ColumnName="ShareUrl" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UnReadCount" ColumnName="UnReadCount" />
+          <ScalarProperty Name="ChildTime" ColumnName="ChildTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="FBGetUnreadCount" FunctionName="Model.Store.FBGetUnreadCount" />
+    <FunctionImportMapping FunctionImportName="GetAllCommentByID" FunctionName="Model.Store.GetAllCommentByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetAllCommentByID_Result">
+          <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+          <ScalarProperty Name="IsLike" ColumnName="IsLike" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="IsMe" ColumnName="IsMe" />
+          <ScalarProperty Name="NoteStr" ColumnName="NoteStr" />
+          <ScalarProperty Name="PreUrlStr" ColumnName="PreUrlStr" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+          <ScalarProperty Name="TypeOf" ColumnName="TypeOf" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllCommentByID2" FunctionName="Model.Store.GetAllCommentByID2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetAllCommentByID2_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FBName" ColumnName="FBName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="IsReply" ColumnName="IsReply" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="UserLike" ColumnName="UserLike" />
+          <ScalarProperty Name="IsIngore" ColumnName="IsIngore" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserLink" ColumnName="UserLink" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+          <ScalarProperty Name="ChildOf" ColumnName="ChildOf" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="TypeOf" ColumnName="TypeOf" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="UrlWeb" ColumnName="UrlWeb" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="ChildText" ColumnName="ChildText" />
+          <ScalarProperty Name="ContactIDs" ColumnName="ContactIDs" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+          <ScalarProperty Name="PreviewUrl" ColumnName="PreviewUrl" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ScopedThreadKey" ColumnName="ScopedThreadKey" />
+          <ScalarProperty Name="ShareUrl" ColumnName="ShareUrl" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UnReadCount" ColumnName="UnReadCount" />
+          <ScalarProperty Name="ChildTime" ColumnName="ChildTime" />
+          <ScalarProperty Name="IsMe" ColumnName="IsMe" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllInboxByID" FunctionName="Model.Store.GetAllInboxByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetAllInboxByID_Result">
+          <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+          <ScalarProperty Name="IsLike" ColumnName="IsLike" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="IsMe" ColumnName="IsMe" />
+          <ScalarProperty Name="NoteStr" ColumnName="NoteStr" />
+          <ScalarProperty Name="PreUrlStr" ColumnName="PreUrlStr" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetClassOfTeacherForTimeTable" FunctionName="Model.Store.GetClassOfTeacherForTimeTable">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetClassOfTeacherForTimeTable_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="MinStudent" ColumnName="MinStudent" />
+          <ScalarProperty Name="MaxStudent" ColumnName="MaxStudent" />
+          <ScalarProperty Name="StatusClassID" ColumnName="StatusClassID" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="ClassRoomID" ColumnName="ClassRoomID" />
+          <ScalarProperty Name="IsCreatedTimeTable" ColumnName="IsCreatedTimeTable" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetClassTimeTable" FunctionName="Model.Store.GetClassTimeTable">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetClassTimeTable_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="Dates" ColumnName="Dates" />
+          <ScalarProperty Name="OrderIndex" ColumnName="OrderIndex" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IsStudied" ColumnName="IsStudied" />
+          <ScalarProperty Name="ChangedRoomID" ColumnName="ChangedRoomID" />
+          <ScalarProperty Name="ChangedTeacherID" ColumnName="ChangedTeacherID" />
+          <ScalarProperty Name="IsOff" ColumnName="IsOff" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="DateOfChange" ColumnName="DateOfChange" />
+          <ScalarProperty Name="ReasonForChangeDate" ColumnName="ReasonForChangeDate" />
+          <ScalarProperty Name="Lesson" ColumnName="Lesson" />
+          <ScalarProperty Name="ReasonChangeRoom" ColumnName="ReasonChangeRoom" />
+          <ScalarProperty Name="IndexDay" ColumnName="IndexDay" />
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="IDClass" ColumnName="IDClass" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="StudyName" ColumnName="StudyName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetContactHistory" FunctionName="Model.Store.GetContactHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetContactHistory_Result">
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="OldValue" ColumnName="OldValue" />
+          <ScalarProperty Name="NewValue" ColumnName="NewValue" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="FormatDate" ColumnName="FormatDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetContactRelative" FunctionName="Model.Store.GetContactRelative">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetContactRelative_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="WardID" ColumnName="WardID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CubeID" ColumnName="CubeID" />
+          <ScalarProperty Name="Classification" ColumnName="Classification" />
+          <ScalarProperty Name="CheckRegister" ColumnName="CheckRegister" />
+          <ScalarProperty Name="RelationshipID" ColumnName="RelationshipID" />
+          <ScalarProperty Name="RelationshipName" ColumnName="RelationshipName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetDataChanged" FunctionName="Model.Store.GetDataChanged">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetDataChanged_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ObjID" ColumnName="ObjID" />
+          <ScalarProperty Name="ObjName" ColumnName="ObjName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetDuplicateOrderID" FunctionName="Model.Store.GetDuplicateOrderID" />
+    <FunctionImportMapping FunctionImportName="GetListFBComment" FunctionName="Model.Store.GetListFBComment" />
+    <FunctionImportMapping FunctionImportName="GetListRelative" FunctionName="Model.Store.GetListRelative">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetListRelative_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="WardID" ColumnName="WardID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CubeID" ColumnName="CubeID" />
+          <ScalarProperty Name="Classification" ColumnName="Classification" />
+          <ScalarProperty Name="CheckRegister" ColumnName="CheckRegister" />
+          <ScalarProperty Name="RelationshipID" ColumnName="RelationshipID" />
+          <ScalarProperty Name="RelationshipName" ColumnName="RelationshipName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetListSurvey" FunctionName="Model.Store.GetListSurvey" />
+    <FunctionImportMapping FunctionImportName="GetListUserNameTest" FunctionName="Model.Store.GetListUserNameTest">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetListUserNameTest_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetListUserTest" FunctionName="Model.Store.GetListUserTest">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetListUserTest_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentAttendance" FunctionName="Model.Store.GetStudentAttendance">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetStudentAttendance_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="IsAbsent" ColumnName="IsAbsent" />
+          <ScalarProperty Name="AbsentNote" ColumnName="AbsentNote" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSurvey" FunctionName="Model.Store.GetSurvey" />
+    <FunctionImportMapping FunctionImportName="GetTeacherNameByContactID" FunctionName="Model.Store.GetTeacherNameByContactID" />
+    <FunctionImportMapping FunctionImportName="InvoiceByChangingID" FunctionName="Model.Store.InvoiceByChangingID" />
+    <FunctionImportMapping FunctionImportName="InvoiceByContactID" FunctionName="Model.Store.InvoiceByContactID" />
+    <FunctionImportMapping FunctionImportName="InvoiceList" FunctionName="Model.Store.InvoiceList" />
+    <FunctionImportMapping FunctionImportName="InvoieByDay" FunctionName="Model.Store.InvoieByDay" />
+    <FunctionImportMapping FunctionImportName="InvoieByTimeStatistic" FunctionName="Model.Store.InvoieByTimeStatistic" />
+    <FunctionImportMapping FunctionImportName="ListSurveyQuestion" FunctionName="Model.Store.ListSurveyQuestion" />
+    <FunctionImportMapping FunctionImportName="LstAppointment" FunctionName="Model.Store.LstAppointment" />
+    <FunctionImportMapping FunctionImportName="report_employees_Sales" FunctionName="Model.Store.report_employees_Sales" />
+    <FunctionImportMapping FunctionImportName="report_employees_Sales1" FunctionName="Model.Store.report_employees_Sales1" />
+    <FunctionImportMapping FunctionImportName="report_Invoice_ByDate" FunctionName="Model.Store.report_Invoice_ByDate" />
+    <FunctionImportMapping FunctionImportName="report_Invoice_ByDate_Account" FunctionName="Model.Store.report_Invoice_ByDate_Account" />
+    <FunctionImportMapping FunctionImportName="report_Invoice_ByDate_Pay" FunctionName="Model.Store.report_Invoice_ByDate_Pay" />
+    <FunctionImportMapping FunctionImportName="report_Invoice_ByDate_Type" FunctionName="Model.Store.report_Invoice_ByDate_Type" />
+    <FunctionImportMapping FunctionImportName="ReportContactSourceByDate" FunctionName="Model.Store.ReportContactSourceByDate" />
+    <FunctionImportMapping FunctionImportName="ReportContactStatusByDate" FunctionName="Model.Store.ReportContactStatusByDate" />
+    <FunctionImportMapping FunctionImportName="ReportContactStatusByDateAndStaff" FunctionName="Model.Store.ReportContactStatusByDateAndStaff" />
+    <FunctionImportMapping FunctionImportName="ReportContactStatusByDateAndStaff1" FunctionName="Model.Store.ReportContactStatusByDateAndStaff1" />
+    <FunctionImportMapping FunctionImportName="ReportSurveyStatic" FunctionName="Model.Store.ReportSurveyStatic" />
+    <FunctionImportMapping FunctionImportName="RPT_PrintInvoice" FunctionName="Model.Store.RPT_PrintInvoice" />
+    <FunctionImportMapping FunctionImportName="RPT_PrintRetain" FunctionName="Model.Store.RPT_PrintRetain">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.RPT_PrintRetain_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ClassFee" ColumnName="ClassFee" />
+          <ScalarProperty Name="ClassLesson" ColumnName="ClassLesson" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="StudiedLesson" ColumnName="StudiedLesson" />
+          <ScalarProperty Name="RemainAmount" ColumnName="RemainAmount" />
+          <ScalarProperty Name="RetainReason" ColumnName="RetainReason" />
+          <ScalarProperty Name="RetainDate" ColumnName="RetainDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ClassNewID" ColumnName="ClassNewID" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CreateByUserName" ColumnName="CreateByUserName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RptContactPrint" FunctionName="Model.Store.RptContactPrint" />
+    <FunctionImportMapping FunctionImportName="Search_Name" FunctionName="Model.Store.Search_Name" />
+    <FunctionImportMapping FunctionImportName="SearchBlackListPhone" FunctionName="Model.Store.SearchBlackListPhone" />
+    <FunctionImportMapping FunctionImportName="SearchBranch" FunctionName="Model.Store.SearchBranch" />
+    <FunctionImportMapping FunctionImportName="SearchCenterInfomation" FunctionName="Model.Store.SearchCenterInfomation" />
+    <FunctionImportMapping FunctionImportName="SearchChildOfScoreTableStructureDetail" FunctionName="Model.Store.SearchChildOfScoreTableStructureDetail" />
+    <FunctionImportMapping FunctionImportName="SearchClass" FunctionName="Model.Store.SearchClass" />
+    <FunctionImportMapping FunctionImportName="SearchClassByContact" FunctionName="Model.Store.SearchClassByContact" />
+    <FunctionImportMapping FunctionImportName="SearchClassByCustomer" FunctionName="Model.Store.SearchClassByCustomer" />
+    <FunctionImportMapping FunctionImportName="SearchClassRoom" FunctionName="Model.Store.SearchClassRoom" />
+    <FunctionImportMapping FunctionImportName="SearchClassRoom1" FunctionName="Model.Store.SearchClassRoom1" />
+    <FunctionImportMapping FunctionImportName="SearchContacList" FunctionName="Model.Store.SearchContacList" />
+    <FunctionImportMapping FunctionImportName="SearchEmailTemplate" FunctionName="Model.Store.SearchEmailTemplate" />
+    <FunctionImportMapping FunctionImportName="SearchFBPost" FunctionName="Model.Store.SearchFBPost" />
+    <FunctionImportMapping FunctionImportName="SearchInvoiceCategory" FunctionName="Model.Store.SearchInvoiceCategory" />
+    <FunctionImportMapping FunctionImportName="SearchPhoneSeeding" FunctionName="Model.Store.SearchPhoneSeeding" />
+    <FunctionImportMapping FunctionImportName="SearchRole" FunctionName="Model.Store.SearchRole" />
+    <FunctionImportMapping FunctionImportName="SearchScoreTableStructure" FunctionName="Model.Store.SearchScoreTableStructure" />
+    <FunctionImportMapping FunctionImportName="SearchScoreTableStructureDetail" FunctionName="Model.Store.SearchScoreTableStructureDetail" />
+    <FunctionImportMapping FunctionImportName="SearchStatusClass" FunctionName="Model.Store.SearchStatusClass" />
+    <FunctionImportMapping FunctionImportName="SearchStatusRoom" FunctionName="Model.Store.SearchStatusRoom" />
+    <FunctionImportMapping FunctionImportName="SearchStatustList" FunctionName="Model.Store.SearchStatustList" />
+    <FunctionImportMapping FunctionImportName="SearchStudentScoreDetail" FunctionName="Model.Store.SearchStudentScoreDetail" />
+    <FunctionImportMapping FunctionImportName="SearchStudentScoreDetail2" FunctionName="Model.Store.SearchStudentScoreDetail2" />
+    <FunctionImportMapping FunctionImportName="SearchSurveryForm" FunctionName="Model.Store.SearchSurveryForm" />
+    <FunctionImportMapping FunctionImportName="SearchSurveryStatic" FunctionName="Model.Store.SearchSurveryStatic" />
+    <FunctionImportMapping FunctionImportName="SearchTeacher" FunctionName="Model.Store.SearchTeacher" />
+    <FunctionImportMapping FunctionImportName="SearchTeacher2" FunctionName="Model.Store.SearchTeacher2" />
+    <FunctionImportMapping FunctionImportName="SearchThucTapVinh" FunctionName="Model.Store.SearchThucTapVinh" />
+    <FunctionImportMapping FunctionImportName="SearchUser" FunctionName="Model.Store.SearchUser" />
+    <FunctionImportMapping FunctionImportName="SearchUserNameTest" FunctionName="Model.Store.SearchUserNameTest" />
+    <FunctionImportMapping FunctionImportName="SelectAll_User" FunctionName="Model.Store.SelectAll_User" />
+    <FunctionImportMapping FunctionImportName="SelectAllFee" FunctionName="Model.Store.SelectAllFee">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.SelectAllFee_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="MinStudent" ColumnName="MinStudent" />
+          <ScalarProperty Name="MaxStudent" ColumnName="MaxStudent" />
+          <ScalarProperty Name="StatusClassID" ColumnName="StatusClassID" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="ClassRoomID" ColumnName="ClassRoomID" />
+          <ScalarProperty Name="IsCreatedTimeTable" ColumnName="IsCreatedTimeTable" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SelectAllName" FunctionName="Model.Store.SelectAllName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.SelectAllName_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="MinStudent" ColumnName="MinStudent" />
+          <ScalarProperty Name="MaxStudent" ColumnName="MaxStudent" />
+          <ScalarProperty Name="StatusClassID" ColumnName="StatusClassID" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="ClassRoomID" ColumnName="ClassRoomID" />
+          <ScalarProperty Name="IsCreatedTimeTable" ColumnName="IsCreatedTimeTable" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Model.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Model.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Model.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Model.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Model.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_loaddata_User" FunctionName="Model.Store.sp_loaddata_User" />
+    <FunctionImportMapping FunctionImportName="sp_paging_search_User" FunctionName="Model.Store.sp_paging_search_User" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Model.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Model.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="StatusList" FunctionName="Model.Store.StatusList" />
+    <FunctionImportMapping FunctionImportName="StudentClassChangingSearch" FunctionName="Model.Store.StudentClassChangingSearch" />
+    <FunctionImportMapping FunctionImportName="StudentList" FunctionName="Model.Store.StudentList" />
+    <FunctionImportMapping FunctionImportName="StudentRetainSearch" FunctionName="Model.Store.StudentRetainSearch" />
+    <FunctionImportMapping FunctionImportName="StudentSearch" FunctionName="Model.Store.StudentSearch" />
+    <FunctionImportMapping FunctionImportName="StudentSearch2" FunctionName="Model.Store.StudentSearch2" />
+    <FunctionImportMapping FunctionImportName="SubjectCategoryList" FunctionName="Model.Store.SubjectCategoryList" />
+    <FunctionImportMapping FunctionImportName="SubjectList" FunctionName="Model.Store.SubjectList" />
+    <FunctionImportMapping FunctionImportName="SubjectListTest" FunctionName="Model.Store.SubjectListTest" />
+    <FunctionImportMapping FunctionImportName="SurveryStaticSearchList" FunctionName="Model.Store.SurveryStaticSearchList" />
+    <FunctionImportMapping FunctionImportName="SurveyAnswerGetListReport" FunctionName="Model.Store.SurveyAnswerGetListReport" />
+    <FunctionImportMapping FunctionImportName="SurveyForList" FunctionName="Model.Store.SurveyForList" />
+    <FunctionImportMapping FunctionImportName="SurveyListResult" FunctionName="Model.Store.SurveyListResult" />
+    <FunctionImportMapping FunctionImportName="TagChatList" FunctionName="Model.Store.TagChatList" />
+    <FunctionImportMapping FunctionImportName="Teacher_Schedule" FunctionName="Model.Store.Teacher_Schedule">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.Teacher_Schedule_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="Dates" ColumnName="Dates" />
+          <ScalarProperty Name="OrderIndex" ColumnName="OrderIndex" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IsStudied" ColumnName="IsStudied" />
+          <ScalarProperty Name="ChangedRoomID" ColumnName="ChangedRoomID" />
+          <ScalarProperty Name="ChangedTeacherID" ColumnName="ChangedTeacherID" />
+          <ScalarProperty Name="IsOff" ColumnName="IsOff" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="DateOfChange" ColumnName="DateOfChange" />
+          <ScalarProperty Name="ReasonForChangeDate" ColumnName="ReasonForChangeDate" />
+          <ScalarProperty Name="Lesson" ColumnName="Lesson" />
+          <ScalarProperty Name="ReasonChangeRoom" ColumnName="ReasonChangeRoom" />
+          <ScalarProperty Name="DaysOfTheWeek" ColumnName="DaysOfTheWeek" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Teacher_Search" FunctionName="Model.Store.Teacher_Search" />
+    <FunctionImportMapping FunctionImportName="TeacherContractList" FunctionName="Model.Store.TeacherContractList" />
+    <FunctionImportMapping FunctionImportName="TimekeepingGetListDate" FunctionName="Model.Store.TimekeepingGetListDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.TimekeepingGetListDate_Result">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ColName" ColumnName="ColName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="TimekeepingTeacherDataForTeacher" FunctionName="Model.Store.TimekeepingTeacherDataForTeacher" />
+    <FunctionImportMapping FunctionImportName="TimekeepingTeacherGetList" FunctionName="Model.Store.TimekeepingTeacherGetList" />
+    <FunctionImportMapping FunctionImportName="UserRelativeSearch" FunctionName="Model.Store.UserRelativeSearch" />
+    <FunctionImportMapping FunctionImportName="UserSearch1" FunctionName="Model.Store.UserSearch1" />
+    <FunctionImportMapping FunctionImportName="usp_SearchDayOff" FunctionName="Model.Store.usp_SearchDayOff" />
+    <EntitySetMapping Name="AccountConfigs">
+      <EntityTypeMapping TypeName="Model.AccountConfig">
+        <MappingFragment StoreEntitySet="AccountConfig">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Accounts" ColumnName="Accounts" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Animals">
+      <EntityTypeMapping TypeName="Model.Animal">
+        <MappingFragment StoreEntitySet="Animal">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Appointments">
+      <EntityTypeMapping TypeName="Model.Appointment">
+        <MappingFragment StoreEntitySet="Appointment">
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="NotifyToStaff" ColumnName="NotifyToStaff" />
+          <ScalarProperty Name="NotifyToDepartment" ColumnName="NotifyToDepartment" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="DateAndTime" ColumnName="DateAndTime" />
+          <ScalarProperty Name="ObjectID" ColumnName="ObjectID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BlackListPhones">
+      <EntityTypeMapping TypeName="Model.BlackListPhone">
+        <MappingFragment StoreEntitySet="BlackListPhone">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BoMons">
+      <EntityTypeMapping TypeName="Model.BoMon">
+        <MappingFragment StoreEntitySet="BoMon">
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Mon" ColumnName="Mon" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Branches">
+      <EntityTypeMapping TypeName="Model.Branch">
+        <MappingFragment StoreEntitySet="Branch">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CenterInfomations">
+      <EntityTypeMapping TypeName="Model.CenterInfomation">
+        <MappingFragment StoreEntitySet="CenterInfomation">
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatQuickReplies">
+      <EntityTypeMapping TypeName="Model.ChatQuickReply">
+        <MappingFragment StoreEntitySet="ChatQuickReply">
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classes">
+      <EntityTypeMapping TypeName="Model.Class">
+        <MappingFragment StoreEntitySet="Class">
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="IsCreatedTimeTable" ColumnName="IsCreatedTimeTable" />
+          <ScalarProperty Name="ClassRoomID" ColumnName="ClassRoomID" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="StatusClassID" ColumnName="StatusClassID" />
+          <ScalarProperty Name="MaxStudent" ColumnName="MaxStudent" />
+          <ScalarProperty Name="MinStudent" ColumnName="MinStudent" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassRooms">
+      <EntityTypeMapping TypeName="Model.ClassRoom">
+        <MappingFragment StoreEntitySet="ClassRoom">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MaximumStudents" ColumnName="MaximumStudents" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassStudentDetails">
+      <EntityTypeMapping TypeName="Model.ClassStudentDetail">
+        <MappingFragment StoreEntitySet="ClassStudentDetail">
+          <ScalarProperty Name="Classification" ColumnName="Classification" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="FeeBeginDate" ColumnName="FeeBeginDate" />
+          <ScalarProperty Name="IsRetain" ColumnName="IsRetain" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassStudentScoreDetails">
+      <EntityTypeMapping TypeName="Model.ClassStudentScoreDetail">
+        <MappingFragment StoreEntitySet="ClassStudentScoreDetail">
+          <ScalarProperty Name="Times" ColumnName="Times" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="ScoreDetailID" ColumnName="ScoreDetailID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassTeacherDetails">
+      <EntityTypeMapping TypeName="Model.ClassTeacherDetail">
+        <MappingFragment StoreEntitySet="ClassTeacherDetail">
+          <ScalarProperty Name="TeachID" ColumnName="TeachID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassTimeTables">
+      <EntityTypeMapping TypeName="Model.ClassTimeTable">
+        <MappingFragment StoreEntitySet="ClassTimeTable">
+          <ScalarProperty Name="ReasonChangeRoom" ColumnName="ReasonChangeRoom" />
+          <ScalarProperty Name="Lesson" ColumnName="Lesson" />
+          <ScalarProperty Name="ReasonForChangeDate" ColumnName="ReasonForChangeDate" />
+          <ScalarProperty Name="DateOfChange" ColumnName="DateOfChange" />
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="IsOff" ColumnName="IsOff" />
+          <ScalarProperty Name="ChangedTeacherID" ColumnName="ChangedTeacherID" />
+          <ScalarProperty Name="ChangedRoomID" ColumnName="ChangedRoomID" />
+          <ScalarProperty Name="IsStudied" ColumnName="IsStudied" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="OrderIndex" ColumnName="OrderIndex" />
+          <ScalarProperty Name="Dates" ColumnName="Dates" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="Model.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="ClassRegisteredID" ColumnName="ClassRegisteredID" />
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="IsClassRegister" ColumnName="IsClassRegister" />
+          <ScalarProperty Name="TrialNote" ColumnName="TrialNote" />
+          <ScalarProperty Name="TrialEndDate" ColumnName="TrialEndDate" />
+          <ScalarProperty Name="TrialBeginDate" ColumnName="TrialBeginDate" />
+          <ScalarProperty Name="TrialClass" ColumnName="TrialClass" />
+          <ScalarProperty Name="ContactHomie" ColumnName="ContactHomie" />
+          <ScalarProperty Name="CustomerNote" ColumnName="CustomerNote" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="DuplicateContactIds" ColumnName="DuplicateContactIds" />
+          <ScalarProperty Name="ClassInterestedName" ColumnName="ClassInterestedName" />
+          <ScalarProperty Name="SubjectInterestedName" ColumnName="SubjectInterestedName" />
+          <ScalarProperty Name="ContactNote" ColumnName="ContactNote" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="ConfirmTime" ColumnName="ConfirmTime" />
+          <ScalarProperty Name="ConfirmBy" ColumnName="ConfirmBy" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="TestScore" ColumnName="TestScore" />
+          <ScalarProperty Name="TestNote" ColumnName="TestNote" />
+          <ScalarProperty Name="TestTeacherID" ColumnName="TestTeacherID" />
+          <ScalarProperty Name="TestTime" ColumnName="TestTime" />
+          <ScalarProperty Name="TestDate" ColumnName="TestDate" />
+          <ScalarProperty Name="TestSubjectID" ColumnName="TestSubjectID" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="AssignBy" ColumnName="AssignBy" />
+          <ScalarProperty Name="AssignTo" ColumnName="AssignTo" />
+          <ScalarProperty Name="SubSourceID" ColumnName="SubSourceID" />
+          <ScalarProperty Name="SourceID" ColumnName="SourceID" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="FBCommentID" ColumnName="FBCommentID" />
+          <ScalarProperty Name="IsRegisterForRelative" ColumnName="IsRegisterForRelative" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="NoteOld" ColumnName="NoteOld" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="WardID" ColumnName="WardID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SubStatusID" ColumnName="SubStatusID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactDuplicateConfigs">
+      <EntityTypeMapping TypeName="Model.ContactDuplicateConfig">
+        <MappingFragment StoreEntitySet="ContactDuplicateConfig">
+          <ScalarProperty Name="SubStatusID" ColumnName="SubStatusID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="AutoChangeStatus" ColumnName="AutoChangeStatus" />
+          <ScalarProperty Name="DuplicateStatus" ColumnName="DuplicateStatus" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactHiddenConfigs">
+      <EntityTypeMapping TypeName="Model.ContactHiddenConfig">
+        <MappingFragment StoreEntitySet="ContactHiddenConfig">
+          <ScalarProperty Name="SubStatusIDs" ColumnName="SubStatusIDs" />
+          <ScalarProperty Name="StatusIDs" ColumnName="StatusIDs" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactInfoLogs">
+      <EntityTypeMapping TypeName="Model.ContactInfoLog">
+        <MappingFragment StoreEntitySet="ContactInfoLog">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="NewValue" ColumnName="NewValue" />
+          <ScalarProperty Name="OldValue" ColumnName="OldValue" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactInteresteds">
+      <EntityTypeMapping TypeName="Model.ContactInterested">
+        <MappingFragment StoreEntitySet="ContactInterested">
+          <ScalarProperty Name="ObjectID" ColumnName="ObjectID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactSources">
+      <EntityTypeMapping TypeName="Model.ContactSource">
+        <MappingFragment StoreEntitySet="ContactSource">
+          <ScalarProperty Name="Meta" ColumnName="Meta" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactStatus">
+      <EntityTypeMapping TypeName="Model.ContactStatu">
+        <MappingFragment StoreEntitySet="ContactStatus">
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactStatusLogs">
+      <EntityTypeMapping TypeName="Model.ContactStatusLog">
+        <MappingFragment StoreEntitySet="ContactStatusLog">
+          <ScalarProperty Name="ChangeTime" ColumnName="ChangeTime" />
+          <ScalarProperty Name="ChangeBy" ColumnName="ChangeBy" />
+          <ScalarProperty Name="NewStatusName" ColumnName="NewStatusName" />
+          <ScalarProperty Name="NewStatusID" ColumnName="NewStatusID" />
+          <ScalarProperty Name="OldStatusName" ColumnName="OldStatusName" />
+          <ScalarProperty Name="OldStatusID" ColumnName="OldStatusID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="Model.Course">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseCategories">
+      <EntityTypeMapping TypeName="Model.CourseCategory">
+        <MappingFragment StoreEntitySet="CourseCategory">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderIndex" ColumnName="OrderIndex" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="Model.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CheckRegister" ColumnName="CheckRegister" />
+          <ScalarProperty Name="Classification" ColumnName="Classification" />
+          <ScalarProperty Name="CubeID" ColumnName="CubeID" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="WardID" ColumnName="WardID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerNotes">
+      <EntityTypeMapping TypeName="Model.CustomerNote">
+        <MappingFragment StoreEntitySet="CustomerNote">
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="FacebookID" ColumnName="FacebookID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPSIDs">
+      <EntityTypeMapping TypeName="Model.CustomerPSID">
+        <MappingFragment StoreEntitySet="CustomerPSID">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="PSID" ColumnName="PSID" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataChangeNotifications">
+      <EntityTypeMapping TypeName="Model.DataChangeNotification">
+        <MappingFragment StoreEntitySet="DataChangeNotification">
+          <ScalarProperty Name="ObjName" ColumnName="ObjName" />
+          <ScalarProperty Name="ObjID" ColumnName="ObjID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DayOffs">
+      <EntityTypeMapping TypeName="Model.DayOff">
+        <MappingFragment StoreEntitySet="DayOff">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="Model.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Districts">
+      <EntityTypeMapping TypeName="Model.District">
+        <MappingFragment StoreEntitySet="District">
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailTemplates">
+      <EntityTypeMapping TypeName="Model.EmailTemplate">
+        <MappingFragment StoreEntitySet="EmailTemplate">
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="Design" ColumnName="Design" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FBComments">
+      <EntityTypeMapping TypeName="Model.FBComment">
+        <MappingFragment StoreEntitySet="FBComment">
+          <ScalarProperty Name="ChildTime" ColumnName="ChildTime" />
+          <ScalarProperty Name="UnReadCount" ColumnName="UnReadCount" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="ShareUrl" ColumnName="ShareUrl" />
+          <ScalarProperty Name="ScopedThreadKey" ColumnName="ScopedThreadKey" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="PreviewUrl" ColumnName="PreviewUrl" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+          <ScalarProperty Name="ContactIDs" ColumnName="ContactIDs" />
+          <ScalarProperty Name="ChildText" ColumnName="ChildText" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="UrlWeb" ColumnName="UrlWeb" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="TypeOf" ColumnName="TypeOf" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="ChildOf" ColumnName="ChildOf" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+          <ScalarProperty Name="UserLink" ColumnName="UserLink" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IsIngore" ColumnName="IsIngore" />
+          <ScalarProperty Name="UserLike" ColumnName="UserLike" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="IsReply" ColumnName="IsReply" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="FBName" ColumnName="FBName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FBCommentPrs">
+      <EntityTypeMapping TypeName="Model.FBCommentPr">
+        <MappingFragment StoreEntitySet="FBCommentPr">
+          <ScalarProperty Name="ScopedThreadKey" ColumnName="ScopedThreadKey" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="PreviewUrl" ColumnName="PreviewUrl" />
+          <ScalarProperty Name="UserChat" ColumnName="UserChat" />
+          <ScalarProperty Name="ContactIDs" ColumnName="ContactIDs" />
+          <ScalarProperty Name="ChildText" ColumnName="ChildText" />
+          <ScalarProperty Name="LastUpdateTime" ColumnName="LastUpdateTime" />
+          <ScalarProperty Name="UrlWeb" ColumnName="UrlWeb" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="Tag" ColumnName="Tag" />
+          <ScalarProperty Name="TypeOf" ColumnName="TypeOf" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="ChildOf" ColumnName="ChildOf" />
+          <ScalarProperty Name="IsChild" ColumnName="IsChild" />
+          <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+          <ScalarProperty Name="UserLink" ColumnName="UserLink" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IsIngore" ColumnName="IsIngore" />
+          <ScalarProperty Name="UserLike" ColumnName="UserLike" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="IsReply" ColumnName="IsReply" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="FBName" ColumnName="FBName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FBPageManageClients">
+      <EntityTypeMapping TypeName="Model.FBPageManageClient">
+        <MappingFragment StoreEntitySet="FBPageManageClient">
+          <ScalarProperty Name="PageTokenBK" ColumnName="PageTokenBK" />
+          <ScalarProperty Name="IsSubcription" ColumnName="IsSubcription" />
+          <ScalarProperty Name="PageToken" ColumnName="PageToken" />
+          <ScalarProperty Name="DBID" ColumnName="DBID" />
+          <ScalarProperty Name="PageName" ColumnName="PageName" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FBPosts">
+      <EntityTypeMapping TypeName="Model.FBPost">
+        <MappingFragment StoreEntitySet="FBPost">
+          <ScalarProperty Name="IsSkip" ColumnName="IsSkip" />
+          <ScalarProperty Name="IsHideNoPhone" ColumnName="IsHideNoPhone" />
+          <ScalarProperty Name="IsHidePhone" ColumnName="IsHidePhone" />
+          <ScalarProperty Name="ReplyNoPhone" ColumnName="ReplyNoPhone" />
+          <ScalarProperty Name="ReplyHasPhone" ColumnName="ReplyHasPhone" />
+          <ScalarProperty Name="FBCreateTime" ColumnName="FBCreateTime" />
+          <ScalarProperty Name="FBLink" ColumnName="FBLink" />
+          <ScalarProperty Name="PostContent" ColumnName="PostContent" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genders">
+      <EntityTypeMapping TypeName="Model.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiangViens">
+      <EntityTypeMapping TypeName="Model.GiangVien">
+        <MappingFragment StoreEntitySet="GiangVien">
+          <ScalarProperty Name="IDMon" ColumnName="IDMon" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GmailAccounts">
+      <EntityTypeMapping TypeName="Model.GmailAccount">
+        <MappingFragment StoreEntitySet="GmailAccount">
+          <ScalarProperty Name="AccessToken" ColumnName="AccessToken" />
+          <ScalarProperty Name="RefreshToken" ColumnName="RefreshToken" />
+          <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="Model.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="FeeEndDate" ColumnName="FeeEndDate" />
+          <ScalarProperty Name="FeeBeginDate" ColumnName="FeeBeginDate" />
+          <ScalarProperty Name="ClassChangingID" ColumnName="ClassChangingID" />
+          <ScalarProperty Name="IsUseRetain" ColumnName="IsUseRetain" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="RetainID" ColumnName="RetainID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="ExternalID" ColumnName="ExternalID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Payer" ColumnName="Payer" />
+          <ScalarProperty Name="TotalPayment" ColumnName="TotalPayment" />
+          <ScalarProperty Name="PromotionAmount" ColumnName="PromotionAmount" />
+          <ScalarProperty Name="PromotionCode" ColumnName="PromotionCode" />
+          <ScalarProperty Name="DiscountReason" ColumnName="DiscountReason" />
+          <ScalarProperty Name="DiscountAmount" ColumnName="DiscountAmount" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="DiscountType" ColumnName="DiscountType" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="InvoiceCategoryID" ColumnName="InvoiceCategoryID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceCategories">
+      <EntityTypeMapping TypeName="Model.InvoiceCategory">
+        <MappingFragment StoreEntitySet="InvoiceCategory">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsSystem" ColumnName="IsSystem" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceStatus">
+      <EntityTypeMapping TypeName="Model.InvoiceStatu">
+        <MappingFragment StoreEntitySet="InvoiceStatus">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="IsSystem" ColumnName="IsSystem" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListMessages">
+      <EntityTypeMapping TypeName="Model.ListMessage">
+        <MappingFragment StoreEntitySet="ListMessage">
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListSearchCols">
+      <EntityTypeMapping TypeName="Model.ListSearchCol">
+        <MappingFragment StoreEntitySet="ListSearchCol">
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="ShowIndex" ColumnName="ShowIndex" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Template" ColumnName="Template" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListSearchInputs">
+      <EntityTypeMapping TypeName="Model.ListSearchInput">
+        <MappingFragment StoreEntitySet="ListSearchInput">
+          <ScalarProperty Name="ShowIndex" ColumnName="ShowIndex" />
+          <ScalarProperty Name="IsSelected" ColumnName="IsSelected" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InputID" ColumnName="InputID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="Model.Notification">
+        <MappingFragment StoreEntitySet="Notification">
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="NotificationTime" ColumnName="NotificationTime" />
+          <ScalarProperty Name="NotifyTo" ColumnName="NotifyTo" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Meta" ColumnName="Meta" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="AppointmentID" ColumnName="AppointmentID" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PermissionRoles">
+      <EntityTypeMapping TypeName="Model.PermissionRole">
+        <MappingFragment StoreEntitySet="PermissionRole">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ActionID" ColumnName="ActionID" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoneSeedings">
+      <EntityTypeMapping TypeName="Model.PhoneSeeding">
+        <MappingFragment StoreEntitySet="PhoneSeeding">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provinces">
+      <EntityTypeMapping TypeName="Model.Province">
+        <MappingFragment StoreEntitySet="Province">
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Relationships">
+      <EntityTypeMapping TypeName="Model.Relationship">
+        <MappingFragment StoreEntitySet="Relationship">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Relatives">
+      <EntityTypeMapping TypeName="Model.Relative">
+        <MappingFragment StoreEntitySet="Relative">
+          <ScalarProperty Name="RelationshipID" ColumnName="RelationshipID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Model.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="ContactDefaultListCol" ColumnName="ContactDefaultListCol" />
+          <ScalarProperty Name="ContactDefaultSearchInput" ColumnName="ContactDefaultSearchInput" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="AllowMenu" ColumnName="AllowMenu" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScoreTableStructures">
+      <EntityTypeMapping TypeName="Model.ScoreTableStructure">
+        <MappingFragment StoreEntitySet="ScoreTableStructure">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScoreTableStructureClassifications">
+      <EntityTypeMapping TypeName="Model.ScoreTableStructureClassification">
+        <MappingFragment StoreEntitySet="ScoreTableStructureClassification">
+          <ScalarProperty Name="ValueEnd" ColumnName="ValueEnd" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="ValueBegin" ColumnName="ValueBegin" />
+          <ScalarProperty Name="Expressions" ColumnName="Expressions" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScoreTableStructureDetails">
+      <EntityTypeMapping TypeName="Model.ScoreTableStructureDetail">
+        <MappingFragment StoreEntitySet="ScoreTableStructureDetail">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CheckMany" ColumnName="CheckMany" />
+          <ScalarProperty Name="ChildOf" ColumnName="ChildOf" />
+          <ScalarProperty Name="StructureID" ColumnName="StructureID" />
+          <ScalarProperty Name="Coefficient" ColumnName="Coefficient" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusClasses">
+      <EntityTypeMapping TypeName="Model.StatusClass">
+        <MappingFragment StoreEntitySet="StatusClass">
+          <ScalarProperty Name="IsSystem" ColumnName="IsSystem" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusClassStudents">
+      <EntityTypeMapping TypeName="Model.StatusClassStudent">
+        <MappingFragment StoreEntitySet="StatusClassStudent">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusRooms">
+      <EntityTypeMapping TypeName="Model.StatusRoom">
+        <MappingFragment StoreEntitySet="StatusRoom">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusTeachers">
+      <EntityTypeMapping TypeName="Model.StatusTeacher">
+        <MappingFragment StoreEntitySet="StatusTeacher">
+          <ScalarProperty Name="IsSystem" ColumnName="IsSystem" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentAttendances">
+      <EntityTypeMapping TypeName="Model.StudentAttendance">
+        <MappingFragment StoreEntitySet="StudentAttendance">
+          <ScalarProperty Name="AbsentNote" ColumnName="AbsentNote" />
+          <ScalarProperty Name="IsAbsent" ColumnName="IsAbsent" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentClassChangings">
+      <EntityTypeMapping TypeName="Model.StudentClassChanging">
+        <MappingFragment StoreEntitySet="StudentClassChanging">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DifferenceAmount" ColumnName="DifferenceAmount" />
+          <ScalarProperty Name="TotalPay" ColumnName="TotalPay" />
+          <ScalarProperty Name="NewStudiedLesson" ColumnName="NewStudiedLesson" />
+          <ScalarProperty Name="NewRemainAmount" ColumnName="NewRemainAmount" />
+          <ScalarProperty Name="NewPaid" ColumnName="NewPaid" />
+          <ScalarProperty Name="NewClassLesson" ColumnName="NewClassLesson" />
+          <ScalarProperty Name="NewClassFee" ColumnName="NewClassFee" />
+          <ScalarProperty Name="NewClassID" ColumnName="NewClassID" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+          <ScalarProperty Name="ChangeReason" ColumnName="ChangeReason" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="OldStudiedLesson" ColumnName="OldStudiedLesson" />
+          <ScalarProperty Name="OldRemainAmount" ColumnName="OldRemainAmount" />
+          <ScalarProperty Name="OldPaid" ColumnName="OldPaid" />
+          <ScalarProperty Name="OldClassLesson" ColumnName="OldClassLesson" />
+          <ScalarProperty Name="OldClassFee" ColumnName="OldClassFee" />
+          <ScalarProperty Name="OldClassID" ColumnName="OldClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentExtraInfoes">
+      <EntityTypeMapping TypeName="Model.StudentExtraInfo">
+        <MappingFragment StoreEntitySet="StudentExtraInfo">
+          <ScalarProperty Name="NewClassID" ColumnName="NewClassID" />
+          <ScalarProperty Name="IsApplyNewClass" ColumnName="IsApplyNewClass" />
+          <ScalarProperty Name="RetainNote" ColumnName="RetainNote" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="RetainDate" ColumnName="RetainDate" />
+          <ScalarProperty Name="IsRetain" ColumnName="IsRetain" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentRetains">
+      <EntityTypeMapping TypeName="Model.StudentRetain">
+        <MappingFragment StoreEntitySet="StudentRetain">
+          <ScalarProperty Name="ClassNewID" ColumnName="ClassNewID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="RetainDate" ColumnName="RetainDate" />
+          <ScalarProperty Name="RetainReason" ColumnName="RetainReason" />
+          <ScalarProperty Name="RemainAmount" ColumnName="RemainAmount" />
+          <ScalarProperty Name="StudiedLesson" ColumnName="StudiedLesson" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="ClassLesson" ColumnName="ClassLesson" />
+          <ScalarProperty Name="ClassFee" ColumnName="ClassFee" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentStatus">
+      <EntityTypeMapping TypeName="Model.StudentStatu">
+        <MappingFragment StoreEntitySet="StudentStatus">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="Model.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubjectCategories">
+      <EntityTypeMapping TypeName="Model.SubjectCategory">
+        <MappingFragment StoreEntitySet="SubjectCategory">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderIndex" ColumnName="OrderIndex" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubjectLessonDetails">
+      <EntityTypeMapping TypeName="Model.SubjectLessonDetail">
+        <MappingFragment StoreEntitySet="SubjectLessonDetail">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LessonID" ColumnName="LessonID" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyAnswers">
+      <EntityTypeMapping TypeName="Model.SurveyAnswer">
+        <MappingFragment StoreEntitySet="SurveyAnswer">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyFors">
+      <EntityTypeMapping TypeName="Model.SurveyFor">
+        <MappingFragment StoreEntitySet="SurveyFor">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="ForObject" ColumnName="ForObject" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyForms">
+      <EntityTypeMapping TypeName="Model.SurveyForm">
+        <MappingFragment StoreEntitySet="SurveyForm">
+          <ScalarProperty Name="Survey" ColumnName="Survey" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyFormDetails">
+      <EntityTypeMapping TypeName="Model.SurveyFormDetail">
+        <MappingFragment StoreEntitySet="SurveyFormDetail">
+          <ScalarProperty Name="IDSurveyFor" ColumnName="IDSurveyFor" />
+          <ScalarProperty Name="IDSurveyForm" ColumnName="IDSurveyForm" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyQuestions">
+      <EntityTypeMapping TypeName="Model.SurveyQuestion">
+        <MappingFragment StoreEntitySet="SurveyQuestion">
+          <ScalarProperty Name="IsText" ColumnName="IsText" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="SurveyForID" ColumnName="SurveyForID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyStatistics">
+      <EntityTypeMapping TypeName="Model.SurveyStatistic">
+        <MappingFragment StoreEntitySet="SurveyStatistic">
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="IDSurveyForm" ColumnName="IDSurveyForm" />
+          <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDClass" ColumnName="IDClass" />
+          <ScalarProperty Name="SurveyDate" ColumnName="SurveyDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyStatisticDetails">
+      <EntityTypeMapping TypeName="Model.SurveyStatisticDetail">
+        <MappingFragment StoreEntitySet="SurveyStatisticDetail">
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="IDAnswer" ColumnName="IDAnswer" />
+          <ScalarProperty Name="IDSurveyQuestion" ColumnName="IDSurveyQuestion" />
+          <ScalarProperty Name="IDSurveyFor" ColumnName="IDSurveyFor" />
+          <ScalarProperty Name="SurveyStatisticID" ColumnName="SurveyStatisticID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyStatisticImages">
+      <EntityTypeMapping TypeName="Model.SurveyStatisticImage">
+        <MappingFragment StoreEntitySet="SurveyStatisticImage">
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="SurveyStatisticID" ColumnName="SurveyStatisticID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Model.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemConfigs">
+      <EntityTypeMapping TypeName="Model.SystemConfig">
+        <MappingFragment StoreEntitySet="SystemConfig">
+          <ScalarProperty Name="OptionValues" ColumnName="OptionValues" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TagChats">
+      <EntityTypeMapping TypeName="Model.TagChat">
+        <MappingFragment StoreEntitySet="TagChat">
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="IsPrimary" ColumnName="IsPrimary" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="Model.Teacher">
+        <MappingFragment StoreEntitySet="Teacher">
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="BankAccountNumberOwnerName" ColumnName="BankAccountNumberOwnerName" />
+          <ScalarProperty Name="BankBranch" ColumnName="BankBranch" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankAccountNumber" ColumnName="BankAccountNumber" />
+          <ScalarProperty Name="CubeID" ColumnName="CubeID" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="WorkPermits" ColumnName="WorkPermits" />
+          <ScalarProperty Name="DateOfExoirationVisa" ColumnName="DateOfExoirationVisa" />
+          <ScalarProperty Name="Visa" ColumnName="Visa" />
+          <ScalarProperty Name="DateOfExpoiration" ColumnName="DateOfExpoiration" />
+          <ScalarProperty Name="DateOfIssue" ColumnName="DateOfIssue" />
+          <ScalarProperty Name="PlanceOfIssue" ColumnName="PlanceOfIssue" />
+          <ScalarProperty Name="NumberPassport" ColumnName="NumberPassport" />
+          <ScalarProperty Name="Images" ColumnName="Images" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="University" ColumnName="University" />
+          <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="PlaceOfBirth" ColumnName="PlaceOfBirth" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="TaxCode" ColumnName="TaxCode" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EnglishName" ColumnName="EnglishName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TeacherContracts">
+      <EntityTypeMapping TypeName="Model.TeacherContract">
+        <MappingFragment StoreEntitySet="TeacherContract">
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCharts">
+      <EntityTypeMapping TypeName="Model.TestChart">
+        <MappingFragment StoreEntitySet="TestChart">
+          <ScalarProperty Name="ThanhCong" ColumnName="ThanhCong" />
+          <ScalarProperty Name="XacNhan" ColumnName="XacNhan" />
+          <ScalarProperty Name="TongDonHang" ColumnName="TongDonHang" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSQLs">
+      <EntityTypeMapping TypeName="Model.TestSQL">
+        <MappingFragment StoreEntitySet="TestSQL">
+          <ScalarProperty Name="Sql" ColumnName="Sql" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UploadedDayOffs">
+      <EntityTypeMapping TypeName="Model.UploadedDayOff">
+        <MappingFragment StoreEntitySet="UploadedDayOff">
+          <ScalarProperty Name="Uploaded" ColumnName="Uploaded" />
+          <ScalarProperty Name="HaveData" ColumnName="HaveData" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDemoes">
+      <EntityTypeMapping TypeName="Model.UserDemo">
+        <MappingFragment StoreEntitySet="UserDemo">
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Createby" ColumnName="Createby" />
+          <ScalarProperty Name="Isdelete" ColumnName="Isdelete" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserListSearchCols">
+      <EntityTypeMapping TypeName="Model.UserListSearchCol">
+        <MappingFragment StoreEntitySet="UserListSearchCol">
+          <ScalarProperty Name="Cols" ColumnName="Cols" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserListSearchInputs">
+      <EntityTypeMapping TypeName="Model.UserListSearchInput">
+        <MappingFragment StoreEntitySet="UserListSearchInput">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ShowIndex" ColumnName="ShowIndex" />
+          <ScalarProperty Name="IsSelected" ColumnName="IsSelected" />
+          <ScalarProperty Name="InputID" ColumnName="InputID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNameRelatives">
+      <EntityTypeMapping TypeName="Model.UserNameRelative">
+        <MappingFragment StoreEntitySet="UserNameRelative">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RelateName" ColumnName="RelateName" />
+          <ScalarProperty Name="IDUser" ColumnName="IDUser" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNameTests">
+      <EntityTypeMapping TypeName="Model.UserNameTest">
+        <MappingFragment StoreEntitySet="UserNameTest">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Model.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ImgAvatar" ColumnName="ImgAvatar" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Permission" ColumnName="Permission" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTests">
+      <EntityTypeMapping TypeName="Model.UserTest">
+        <MappingFragment StoreEntitySet="UserTest">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wards">
+      <EntityTypeMapping TypeName="Model.Ward">
+        <MappingFragment StoreEntitySet="Ward">
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactTestResultStatus">
+      <EntityTypeMapping TypeName="Model.ContactTestResultStatu">
+        <MappingFragment StoreEntitySet="ContactTestResultStatus">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VietTests">
+      <EntityTypeMapping TypeName="Model.VietTest">
+        <MappingFragment StoreEntitySet="VietTest">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassStudentDetailViews">
+      <EntityTypeMapping TypeName="Model.ClassStudentDetailView">
+        <MappingFragment StoreEntitySet="ClassStudentDetailView">
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassStudentViews">
+      <EntityTypeMapping TypeName="Model.ClassStudentView">
+        <MappingFragment StoreEntitySet="ClassStudentView">
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="PaidFee" ColumnName="PaidFee" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassTeacherConcatViews">
+      <EntityTypeMapping TypeName="Model.ClassTeacherConcatView">
+        <MappingFragment StoreEntitySet="ClassTeacherConcatView">
+          <ScalarProperty Name="Names" ColumnName="Names" />
+          <ScalarProperty Name="Ids" ColumnName="Ids" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassTeacherViews">
+      <EntityTypeMapping TypeName="Model.ClassTeacherView">
+        <MappingFragment StoreEntitySet="ClassTeacherView">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TeachID" ColumnName="TeachID" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactStatusCountByDateAndStaffViews">
+      <EntityTypeMapping TypeName="Model.ContactStatusCountByDateAndStaffView">
+        <MappingFragment StoreEntitySet="ContactStatusCountByDateAndStaffView">
+          <ScalarProperty Name="AssignTo" ColumnName="AssignTo" />
+          <ScalarProperty Name="ToTalCount" ColumnName="ToTalCount" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactStatusCountByDateViews">
+      <EntityTypeMapping TypeName="Model.ContactStatusCountByDateView">
+        <MappingFragment StoreEntitySet="ContactStatusCountByDateView">
+          <ScalarProperty Name="ToTalCount" ColumnName="ToTalCount" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactViews">
+      <EntityTypeMapping TypeName="Model.ContactView">
+        <MappingFragment StoreEntitySet="ContactView">
+          <ScalarProperty Name="TestSubjectName" ColumnName="TestSubjectName" />
+          <ScalarProperty Name="TestTeacherName" ColumnName="TestTeacherName" />
+          <ScalarProperty Name="TestResultName" ColumnName="TestResultName" />
+          <ScalarProperty Name="SubSourceName" ColumnName="SubSourceName" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="SubStatusColor" ColumnName="SubStatusColor" />
+          <ScalarProperty Name="SubStatusName" ColumnName="SubStatusName" />
+          <ScalarProperty Name="StatusColor" ColumnName="StatusColor" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="TrialNote" ColumnName="TrialNote" />
+          <ScalarProperty Name="TrialEndDate" ColumnName="TrialEndDate" />
+          <ScalarProperty Name="TrialBeginDate" ColumnName="TrialBeginDate" />
+          <ScalarProperty Name="TrialClass" ColumnName="TrialClass" />
+          <ScalarProperty Name="ContactHomie" ColumnName="ContactHomie" />
+          <ScalarProperty Name="SubjectInterestedName" ColumnName="SubjectInterestedName" />
+          <ScalarProperty Name="ClassInterestedName" ColumnName="ClassInterestedName" />
+          <ScalarProperty Name="DuplicateContactIds" ColumnName="DuplicateContactIds" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="TestScore" ColumnName="TestScore" />
+          <ScalarProperty Name="TestNote" ColumnName="TestNote" />
+          <ScalarProperty Name="TestTeacherID" ColumnName="TestTeacherID" />
+          <ScalarProperty Name="TestTime" ColumnName="TestTime" />
+          <ScalarProperty Name="TestDate" ColumnName="TestDate" />
+          <ScalarProperty Name="TestSubjectID" ColumnName="TestSubjectID" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="AssignBy" ColumnName="AssignBy" />
+          <ScalarProperty Name="AssignTo" ColumnName="AssignTo" />
+          <ScalarProperty Name="SubSourceID" ColumnName="SubSourceID" />
+          <ScalarProperty Name="SourceID" ColumnName="SourceID" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="FBCommentID" ColumnName="FBCommentID" />
+          <ScalarProperty Name="IsRegisterForRelative" ColumnName="IsRegisterForRelative" />
+          <ScalarProperty Name="ClassRegisteredID" ColumnName="ClassRegisteredID" />
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="IsClassRegister" ColumnName="IsClassRegister" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="NoteOld" ColumnName="NoteOld" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="WardID" ColumnName="WardID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SubStatusID" ColumnName="SubStatusID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerClassViews">
+      <EntityTypeMapping TypeName="Model.CustomerClassView">
+        <MappingFragment StoreEntitySet="CustomerClassView">
+          <ScalarProperty Name="StudingClassCount" ColumnName="StudingClassCount" />
+          <ScalarProperty Name="StudiedClassCount" ColumnName="StudiedClassCount" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceViews">
+      <EntityTypeMapping TypeName="Model.InvoiceView">
+        <MappingFragment StoreEntitySet="InvoiceView">
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="FeeEndDate" ColumnName="FeeEndDate" />
+          <ScalarProperty Name="FeeBeginDate" ColumnName="FeeBeginDate" />
+          <ScalarProperty Name="ClassChangingID" ColumnName="ClassChangingID" />
+          <ScalarProperty Name="IsUseRetain" ColumnName="IsUseRetain" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="RetainID" ColumnName="RetainID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="ExternalID" ColumnName="ExternalID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Payer" ColumnName="Payer" />
+          <ScalarProperty Name="TotalPayment" ColumnName="TotalPayment" />
+          <ScalarProperty Name="PromotionAmount" ColumnName="PromotionAmount" />
+          <ScalarProperty Name="PromotionCode" ColumnName="PromotionCode" />
+          <ScalarProperty Name="DiscountReason" ColumnName="DiscountReason" />
+          <ScalarProperty Name="DiscountAmount" ColumnName="DiscountAmount" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="DiscountType" ColumnName="DiscountType" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="InvoiceCategoryID" ColumnName="InvoiceCategoryID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentClassChangingViews">
+      <EntityTypeMapping TypeName="Model.StudentClassChangingView">
+        <MappingFragment StoreEntitySet="StudentClassChangingView">
+          <ScalarProperty Name="NewClassName" ColumnName="NewClassName" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="ContactHomie" ColumnName="ContactHomie" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DifferenceAmount" ColumnName="DifferenceAmount" />
+          <ScalarProperty Name="TotalPay" ColumnName="TotalPay" />
+          <ScalarProperty Name="NewStudiedLesson" ColumnName="NewStudiedLesson" />
+          <ScalarProperty Name="NewRemainAmount" ColumnName="NewRemainAmount" />
+          <ScalarProperty Name="NewPaid" ColumnName="NewPaid" />
+          <ScalarProperty Name="NewClassLesson" ColumnName="NewClassLesson" />
+          <ScalarProperty Name="NewClassFee" ColumnName="NewClassFee" />
+          <ScalarProperty Name="NewClassID" ColumnName="NewClassID" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+          <ScalarProperty Name="ChangeReason" ColumnName="ChangeReason" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="OldStudiedLesson" ColumnName="OldStudiedLesson" />
+          <ScalarProperty Name="OldRemainAmount" ColumnName="OldRemainAmount" />
+          <ScalarProperty Name="OldPaid" ColumnName="OldPaid" />
+          <ScalarProperty Name="OldClassLesson" ColumnName="OldClassLesson" />
+          <ScalarProperty Name="OldClassFee" ColumnName="OldClassFee" />
+          <ScalarProperty Name="OldClassID" ColumnName="OldClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentRetainViews">
+      <EntityTypeMapping TypeName="Model.StudentRetainView">
+        <MappingFragment StoreEntitySet="StudentRetainView">
+          <ScalarProperty Name="RemainFee" ColumnName="RemainFee" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ClassEndTime" ColumnName="ClassEndTime" />
+          <ScalarProperty Name="ClassBeginTime" ColumnName="ClassBeginTime" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="ContactHomie" ColumnName="ContactHomie" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ClassNewID" ColumnName="ClassNewID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="RetainDate" ColumnName="RetainDate" />
+          <ScalarProperty Name="RetainReason" ColumnName="RetainReason" />
+          <ScalarProperty Name="RemainAmount" ColumnName="RemainAmount" />
+          <ScalarProperty Name="StudiedLesson" ColumnName="StudiedLesson" />
+          <ScalarProperty Name="RetainAmount" ColumnName="RetainAmount" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="ClassLesson" ColumnName="ClassLesson" />
+          <ScalarProperty Name="ClassFee" ColumnName="ClassFee" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentViews">
+      <EntityTypeMapping TypeName="Model.StudentView">
+        <MappingFragment StoreEntitySet="StudentView">
+          <ScalarProperty Name="PaidStatus" ColumnName="PaidStatus" />
+          <ScalarProperty Name="FeeEndDate" ColumnName="FeeEndDate" />
+          <ScalarProperty Name="TotalDiscount" ColumnName="TotalDiscount" />
+          <ScalarProperty Name="TotalPay" ColumnName="TotalPay" />
+          <ScalarProperty Name="FeeNextDate" ColumnName="FeeNextDate" />
+          <ScalarProperty Name="RemainFee" ColumnName="RemainFee" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="CurrentRegisterCount" ColumnName="CurrentRegisterCount" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="FeeBeginDate" ColumnName="FeeBeginDate" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="FeeType" ColumnName="FeeType" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="ClassMaxStudent" ColumnName="ClassMaxStudent" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="ClassEndTime" ColumnName="ClassEndTime" />
+          <ScalarProperty Name="ClassBeginTime" ColumnName="ClassBeginTime" />
+          <ScalarProperty Name="ClassStatusID" ColumnName="ClassStatusID" />
+          <ScalarProperty Name="ClassFee" ColumnName="ClassFee" />
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="ContactHomie" ColumnName="ContactHomie" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserListSearchInputViews">
+      <EntityTypeMapping TypeName="Model.UserListSearchInputView">
+        <MappingFragment StoreEntitySet="UserListSearchInputView">
+          <ScalarProperty Name="ShowIndex" ColumnName="ShowIndex" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IsSelected" ColumnName="IsSelected" />
+          <ScalarProperty Name="InputID" ColumnName="InputID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewClasses">
+      <EntityTypeMapping TypeName="Model.ViewClass">
+        <MappingFragment StoreEntitySet="ViewClass">
+          <ScalarProperty Name="NextLesson" ColumnName="NextLesson" />
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="TeacherIds" ColumnName="TeacherIds" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="Registed" ColumnName="Registed" />
+          <ScalarProperty Name="StatusClassColor" ColumnName="StatusClassColor" />
+          <ScalarProperty Name="StatusClassName" ColumnName="StatusClassName" />
+          <ScalarProperty Name="IsCreatedTimeTable" ColumnName="IsCreatedTimeTable" />
+          <ScalarProperty Name="ClassRoomID" ColumnName="ClassRoomID" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+          <ScalarProperty Name="Fee" ColumnName="Fee" />
+          <ScalarProperty Name="T2" ColumnName="T2" />
+          <ScalarProperty Name="T3" ColumnName="T3" />
+          <ScalarProperty Name="T4" ColumnName="T4" />
+          <ScalarProperty Name="T5" ColumnName="T5" />
+          <ScalarProperty Name="T6" ColumnName="T6" />
+          <ScalarProperty Name="T7" ColumnName="T7" />
+          <ScalarProperty Name="T8" ColumnName="T8" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="NumberOfStudiedLession" ColumnName="NumberOfStudiedLession" />
+          <ScalarProperty Name="NumberOfLesson" ColumnName="NumberOfLesson" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="DeleteBy" ColumnName="DeleteBy" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="StatusClassID" ColumnName="StatusClassID" />
+          <ScalarProperty Name="MaxStudent" ColumnName="MaxStudent" />
+          <ScalarProperty Name="MinStudent" ColumnName="MinStudent" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

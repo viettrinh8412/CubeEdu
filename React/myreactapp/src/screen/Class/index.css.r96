@@ -1,0 +1,113 @@
+.ant-form-button {
+    padding: 10px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.ant-form-item-label>label {
+    float: left;
+}
+
+.ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.ant-form-item {
+    margin-bottom: 10px;
+}
+
+.ant-modal-resize {
+    width: 1100px !important;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+.ant-space-resize {
+    margin-right: 50px !important;
+}
+
+.ant-table-header {
+    text-align-last: center;
+}
+
+.logo {
+    font-size: 24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    background-color: darkcyan;
+}
+
+.ant-layout-footer {
+    text-align: center;
+}
+
+.ant-input-group-wrapper {
+    margin-right: 450px;
+}
+
+.select-box {
+    width: 300px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.ant-card {
+    margin: 20px;
+}
+
+.button-search {
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+    margin-top: 50px;
+}
+
+.ant-input {
+    width: 300px;
+    border-radius: 4px;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.col-7 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+div {
+    padding-bottom: 3px;
+}
+
+.ant-tabs-bar {
+    margin: -16px 0 16px 0;
+}
+
+.ant-tabs-nav-container {
+    margin-bottom: -13px;
+}
+
+.ant-picker {
+    height: 32px;
+    width: 300px;
+    border-radius: 4px;
+}

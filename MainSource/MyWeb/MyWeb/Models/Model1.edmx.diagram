@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="09d14ba17ba94dbf9a4d17388f75c90d" Name="Diagram1" ZoomLevel="91">
+        <EntityTypeShape EntityType="Model.AccountConfig" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Animal" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Appointment" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.BlackListPhone" Width="1.5" PointX="7.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Model.BoMon" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Branch" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.CenterInfomation" Width="1.5" PointX="9.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.ChatQuickReply" Width="1.5" PointX="9.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Model.Class" Width="1.5" PointX="9.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.ClassRoom" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.ClassStudentDetail" Width="1.5" PointX="11.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.ClassStudentScoreDetail" Width="1.5" PointX="11.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.ClassTeacherDetail" Width="1.5" PointX="5.75" PointY="12.75" />
+        <EntityTypeShape EntityType="Model.ClassTimeTable" Width="1.5" PointX="13.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Contact" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.ContactDuplicateConfig" Width="1.5" PointX="2.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.ContactHiddenConfig" Width="1.5" PointX="13.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Model.ContactInfoLog" Width="1.5" PointX="13.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.ContactInterested" Width="1.5" PointX="11.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.ContactSource" Width="1.5" PointX="13.75" PointY="12.75" />
+        <EntityTypeShape EntityType="Model.ContactStatu" Width="1.5" PointX="15.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.ContactStatusLog" Width="1.5" PointX="4.75" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.Course" Width="1.5" PointX="15.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Model.CourseCategory" Width="1.5" PointX="6.75" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.Customer" Width="1.5" PointX="5.25" PointY="5.75" />
+        <EntityTypeShape EntityType="Model.CustomerNote" Width="1.5" PointX="15.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.CustomerPSID" Width="1.5" PointX="15.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.DataChangeNotification" Width="1.5" PointX="15.75" PointY="14.75" />
+        <EntityTypeShape EntityType="Model.DayOff" Width="1.5" PointX="17.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Department" Width="1.5" PointX="17.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.District" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="Model.EmailTemplate" Width="1.5" PointX="17.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.FBComment" Width="1.5" PointX="8.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.FBCommentPr" Width="1.5" PointX="10.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.FBPageManageClient" Width="1.5" PointX="17.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.FBPost" Width="1.5" PointX="12.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.Gender" Width="1.5" PointX="17.75" PointY="14.75" />
+        <EntityTypeShape EntityType="Model.GiangVien" Width="1.5" PointX="14.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.GmailAccount" Width="1.5" PointX="16.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.Invoice" Width="1.5" PointX="18.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.InvoiceCategory" Width="1.5" PointX="19.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.InvoiceStatu" Width="1.5" PointX="2.75" PointY="19.75" />
+        <EntityTypeShape EntityType="Model.ListMessage" Width="1.5" PointX="4.75" PointY="19.75" />
+        <EntityTypeShape EntityType="Model.ListSearchCol" Width="1.5" PointX="19.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Model.ListSearchInput" Width="1.5" PointX="19.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.Notification" Width="1.5" PointX="19.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.PermissionRole" Width="1.5" PointX="14.75" PointY="20.75" />
+        <EntityTypeShape EntityType="Model.PhoneSeeding" Width="1.5" PointX="20.75" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.Province" Width="1.5" PointX="3" PointY="6.25" />
+        <EntityTypeShape EntityType="Model.Relationship" Width="1.5" PointX="20.75" PointY="18.75" />
+        <EntityTypeShape EntityType="Model.Relative" Width="1.5" PointX="21.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Role" Width="1.5" PointX="21.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.ScoreTableStructure" Width="1.5" PointX="21.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.ScoreTableStructureClassification" Width="1.5" PointX="21.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.ScoreTableStructureDetail" Width="1.5" PointX="20.75" PointY="21.75" />
+        <EntityTypeShape EntityType="Model.StatusClass" Width="1.5" PointX="2.75" PointY="22.75" />
+        <EntityTypeShape EntityType="Model.StatusClassStudent" Width="1.5" PointX="4.75" PointY="22.75" />
+        <EntityTypeShape EntityType="Model.StatusRoom" Width="1.5" PointX="22.75" PointY="15.75" />
+        <EntityTypeShape EntityType="Model.StatusTeacher" Width="1.5" PointX="22.75" PointY="18.75" />
+        <EntityTypeShape EntityType="Model.StudentAttendance" Width="1.5" PointX="22.75" PointY="22.75" />
+        <EntityTypeShape EntityType="Model.StudentClassChanging" Width="1.5" PointX="23.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.StudentExtraInfo" Width="1.5" PointX="23.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.StudentRetain" Width="1.5" PointX="12.75" PointY="23.75" />
+        <EntityTypeShape EntityType="Model.StudentStatu" Width="1.5" PointX="23.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Model.Subject" Width="1.5" PointX="14.75" PointY="23.75" />
+        <EntityTypeShape EntityType="Model.SubjectCategory" Width="1.5" PointX="24.75" PointY="14.75" />
+        <EntityTypeShape EntityType="Model.SubjectLessonDetail" Width="1.5" PointX="24.75" PointY="18.75" />
+        <EntityTypeShape EntityType="Model.SurveyAnswer" Width="1.5" PointX="24.75" PointY="21.75" />
+        <EntityTypeShape EntityType="Model.SurveyFor" Width="1.5" PointX="24.75" PointY="24.75" />
+        <EntityTypeShape EntityType="Model.SurveyForm" Width="1.5" PointX="25.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.SurveyFormDetail" Width="1.5" PointX="25.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.SurveyQuestion" Width="1.5" PointX="4.75" PointY="25.75" />
+        <EntityTypeShape EntityType="Model.SurveyStatistic" Width="1.5" PointX="25.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Model.SurveyStatisticDetail" Width="1.5" PointX="25.75" PointY="10.75" />
+        <EntityTypeShape EntityType="Model.SurveyStatisticImage" Width="1.5" PointX="20.75" PointY="25.75" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="0.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Model.SystemConfig" Width="1.5" PointX="6.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Model.TagChat" Width="1.5" PointX="8.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Model.Teacher" Width="1.5" PointX="26.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.TeacherContract" Width="1.5" PointX="16.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Model.TestChart" Width="1.5" PointX="26.75" PointY="23.75" />
+        <EntityTypeShape EntityType="Model.TestSQL" Width="1.5" PointX="26.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Model.UploadedDayOff" Width="1.5" PointX="27.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.UserDemo" Width="1.5" PointX="27.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.UserListSearchCol" Width="1.5" PointX="27.75" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.UserListSearchInput" Width="1.5" PointX="27.75" PointY="10.75" />
+        <EntityTypeShape EntityType="Model.UserNameRelative" Width="1.5" PointX="22.75" PointY="27.75" />
+        <EntityTypeShape EntityType="Model.UserNameTest" Width="1.5" PointX="2.75" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="28.75" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.UserTest" Width="1.5" PointX="28.75" PointY="18.75" />
+        <EntityTypeShape EntityType="Model.Ward" Width="1.5" PointX="3" PointY="10" />
+        <EntityTypeShape EntityType="Model.ContactTestResultStatu" Width="1.5" PointX="18.75" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.VietTest" Width="1.5" PointX="28.75" PointY="21.75" />
+        <EntityTypeShape EntityType="Model.ClassStudentDetailView" Width="1.5" PointX="28.75" PointY="24.75" />
+        <EntityTypeShape EntityType="Model.ClassStudentView" Width="1.5" PointX="28.75" PointY="28.75" />
+        <EntityTypeShape EntityType="Model.ClassTeacherConcatView" Width="1.5" PointX="29.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.ClassTeacherView" Width="1.5" PointX="29.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.ContactStatusCountByDateAndStaffView" Width="1.5" PointX="4.75" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.ContactStatusCountByDateView" Width="1.5" PointX="29.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Model.ContactView" Width="1.5" PointX="10.75" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.CustomerClassView" Width="1.5" PointX="29.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.InvoiceView" Width="1.5" PointX="12.75" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.StudentClassChangingView" Width="1.5" PointX="24.75" PointY="29.75" />
+        <EntityTypeShape EntityType="Model.StudentRetainView" Width="1.5" PointX="30.75" PointY="12.75" />
+        <EntityTypeShape EntityType="Model.StudentView" Width="1.5" PointX="30.75" PointY="20.75" />
+        <EntityTypeShape EntityType="Model.UserListSearchInputView" Width="1.5" PointX="20.75" PointY="30.75" />
+        <EntityTypeShape EntityType="Model.ViewClass" Width="1.5" PointX="30.75" PointY="29.75" />
+        <AssociationConnector Association="Model.FK_Customer_District" />
+        <AssociationConnector Association="Model.FK_Customer_Province" />
+        <AssociationConnector Association="Model.FK_Customer_Ward" />
+        <AssociationConnector Association="Model.FK_Ward_District" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
